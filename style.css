@@ -280,6 +280,8 @@ body {
 .footer p {
     font-size: 15px;
     line-height: 1.5;
+    color: #fff !important;
+    margin: 0 !important;
 }
 
 .footer ul {

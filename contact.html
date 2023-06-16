@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KMC</title>
+  <link rel="icon" href="images/kmc_logo.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .form_container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 40px;
+      color: black;
+    }
+
+    form {
+      background-color: #4e4b4b;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #968e8e;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    textarea {
+      height: 100px;
+      color: black;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: #d8d0d0;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+    .contact-info {
+      margin-top: 40px;
+      text-align: center;
+    }
+
+    .contact-info p {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    .contact-info i {
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header-body-section">
+    <nav class="nav">
+      <div class="container container-nav">
+        <div class="logoContainer">
+          <img src="https://res.cloudinary.com/depo3pciu/image/upload/v1685827499/kmc_logo_qeiwkv.png" alt="">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="our-process.html">Our Process</a></li>
+          <li><a href="FAQ.html">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <!-- <li><a href="#">Apply Franchise</a></li>
+          <li><a href="#">Blog</a></li> -->
+          <!-- <li><a href="#" class="class"></a></li> -->
+        </ul>
+
+      </div>
+    </nav>
+
+    <div class="form_container">
+      <h1>Contact Us</h1>
+
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <div class="contact-info">
+        <p><i class="fa fa-phone"></i>Phone: 123-456-7890</p>
+        <p><i class="fa fa-envelope"></i>Email: info@example.com</p>
+        <p><i class="fa fa-map-marker"></i>Address: 123 Street, City, Country</p>
+      </div>
+    </div>
+
+
+    <footer class="footer">
+      <div class="footer-columns">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <p>
+            Discover the essence of India at KMC. We bring you authentic Indian cuisine with a
+            commitment to quality, taste, and customer satisfaction. Join us on a flavorful journey as we share the
+            joy of Indian food and culture worldwide.
+          </p>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <u>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="our-process.html">Our Process</a></li>
+              <li><a href="FAQ.html">FAQ</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <!-- <li><a href="#">Apply Franchise</a></li>
+                <li><a href="#">Blog</a></li> -->
+            </u>
+          </ul>
+        </div>
+        <!-- <div class="footer-column">
+              <h3>Our Insights</h3>
+              <u>
+                  <p>Why is Franchise so Successful</p>
+                  <p>How to start a Franchise Bussiness </p>
+                  <p>3rd Anniversary of The Rolling Plate</p>
+                  <p>Planted 300 Trees and Celebrated Azadi ka Amrit Mahotsav</p>
+                  <p>What are the benefits of Cloud Kitchen Business?</p>
+                  <p>PROFITABLE BUSSINESS THAT CAN EASILY BE STARTED ON LOW INVESTMENT</p>
+              </u>
+          </div> -->
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i>facebook</a>
+            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i>twitter</a>
+            <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i>instagram</a>
+            <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i>linkedIn</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p> COPYRIGHT &copy; 2023 KMC | <u>ALL RIGHTS RESERVED</u> </p>
+        <p>POWERED BY <u>KMC Collections PVT.LTD</u> </p>
+      </div>
+    </footer>
+
+
+</body>
+
+</html>

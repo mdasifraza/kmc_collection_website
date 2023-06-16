@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KMC</title>
+    <link rel="icon" href="images/kmc_logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        .franchise-image {
+            position: relative;
+            width: 100%;
+            height: 650px;
+            object-fit: cover;
+            filter: brightness(45%);
+        }
+
+        .franchise-image img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .franchise-second {
+            position: relative;
+            width: 400px;
+            height: 510px;
+            object-fit: cover;
+            margin-top: 100px;
+            margin-left: 450px;
+        }
+
+        .franchise-second img {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .franchise-statement {
+            position: absolute;
+            font-size: 45px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .second-statement {
+            position: absolute;
+            font-size: 18px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 330px;
+        }
+
+        .third-statement {
+            position: absolute;
+            font-size: 50px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 280px;
+            color: red;
+        }
+
+        .fourth-statement {
+            position: absolute;
+            font-size: 45px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin-left: 415px;
+            margin-top: 130px;
+        }
+
+        .container-body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 220px;
+            flex-direction: column;
+        }
+
+        .brands-image1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            margin-top: 360px;
+        }
+
+        .brands-image1 img {
+            margin-right: 60px;
+            margin-left: 60px
+        }
+
+        .brands-image2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            margin-top: 200px;
+        }
+
+        .brands-image2 img {
+            margin-right: 60px;
+            margin-left: 60px
+        }
+
+        .brands-image3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            margin-top: 200px;
+        }
+
+        .brands-image3 img {
+            margin-right: 50px;
+            margin-left: 71px
+        }
+
+        .brands-image4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            margin-top: 200px;
+        }
+
+        .brands-image4 img {
+            margin-right: 60px;
+            margin-left: 71px
+        }
+
+        .brands-image5 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            margin-top: 200px;
+        }
+
+        .brands-image5 img {
+            margin-right: 100px;
+            margin-left: 71px
+        }
+
+        .brands-image6 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 10vh;
+            margin-top: 200px;
+            margin-bottom: 150px;
+        }
+
+        .brands-image6 img {
+            margin-right: 80px;
+            margin-left: 71px
+        }
+
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+        }
+
+        form {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <div class="franchise-image">
+            <img id="franchiseImage"
+                src="https://cdn.vox-cdn.com/thumbor/bif3U7XKUqWpOUv91_fXLfzsIx8=/0x0:6000x4000/1200x675/filters:focal(2520x1520:3480x2480)/cdn.vox-cdn.com/uploads/chorus_image/image/71262429/Le_Fantome.0.jpg"
+                alt="">
+        </div>
+        <div class="header-body-section">
+            <nav class="nav">
+                <div class="container container-nav">
+                    <div class="logoContainer">
+                        <img src="https://res.cloudinary.com/depo3pciu/image/upload/v1685827499/kmc_logo_qeiwkv.png"
+                            alt="">
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="our-process.html">Our Process</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <!-- <li><a href="#">Apply Franchise</a></li>
+                        <li><a href="#">Blog</a></li> -->
+                        <!-- <li><a href="#" class="class"></a></li> -->
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-body">
+                <div class="container-body">
+                    <h1 class="franchise-statement">Food Franchise That Bring Big Business</h1>
+                </div>
+                <div>
+                    <h3 class="second-statement">High earning,Low Investment Food Franchise Business Opportunity</h3>
+                </div>
+            </div>
+    </header>
+
+    <div>
+        <img class="franchise-second"
+            src="https://therollingplate.com/wp-content/uploads/2022/05/TRP-PDF-2-01-scaled.jpg" alt="image">
+    </div>
+    <div>
+        <p class="third-statement">Franchise Starting at Just 2.9 Lakhs*</p>
+    </div>
+    <div>
+        <p class="fourth-statement">Our Food Franchise Brands</p>
+    </div>
+
+    <div class="brands-image1">
+        <img width="320" height="160" src="	https://therollingplate.com/wp-content/uploads/2019/08/ballu.png" alt="">
+        <img width="320" height="260" src="https://therollingplate.com/wp-content/uploads/2019/08/bhuka.png" alt="">
+        <img width="320" height="160" src="https://therollingplate.com/wp-content/uploads/2019/08/dana.png" alt="">
+    </div>
+    <div class="brands-image2">
+        <img width="300" height="210" src="https://therollingplate.com/wp-content/uploads/2019/08/kahi-se-bhi.png
+        " alt="">
+        <img width="250" height="160" src="https://therollingplate.com/wp-content/uploads/2019/08/raja.png" alt="">
+        <img width="300" height="160" src="https://therollingplate.com/wp-content/uploads/2020/10/New-Project-1.png"
+            alt="">
+    </div>
+    <div class="brands-image3">
+        <img width="300" height="160" src="https://therollingplate.com/wp-content/uploads/2020/09/RR-Black.png" alt="">
+        <img width="300" height="160" src="https://therollingplate.com/wp-content/uploads/2020/10/New-Project-4.png"
+            alt="">
+        <img width="300" height="160" src="https://therollingplate.com/wp-content/uploads/2020/10/New-Project-5.png"
+            alt="">
+    </div>
+    <div class="brands-image4">
+        <img width="250" height="160" src="https://therollingplate.com/wp-content/uploads/2020/10/New-Project-2.png"
+            alt="">
+        <img width="180" height="150" src="https://therollingplate.com/wp-content/uploads/2021/03/oye-chotu-logo-5.png"
+            alt="">
+        <img width="250" height="160" src="https://therollingplate.com/wp-content/uploads/2020/11/Logo1-1.png" alt="">
+        <img width="150" height="120" src="https://therollingplate.com/wp-content/uploads/2020/11/11.png" alt="">
+    </div>
+    <div class="brands-image5">
+        <img width="130" height="160"
+            src="	https://therollingplate.com/wp-content/uploads/2021/07/pind-kaneda-black-logo-254x300.png" alt="">
+        <img width="180" height="150" src="https://therollingplate.com/wp-content/uploads/2021/07/logo-3-1-min.png"
+            alt="">
+        <img width="150" height="120"
+            src="https://therollingplate.com/wp-content/uploads/2021/08/chicken-khurana-logo-1536x1242.png" alt="">
+    </div>
+    <div class="brands-image6">
+        <img width="200" height="160"
+            src="	https://therollingplate.com/wp-content/uploads/2022/02/lets-wok-logo-2-1.png" alt="image1">
+        <img width="200" height="160"
+            src="https://therollingplate.com/wp-content/uploads/2022/02/delhi-cacies-logo-1.png" alt="image2">
+        <img width="200" height="160"
+            src="data:image/png;base64,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"
+            alt="image3">
+        <img width="290" height="220"
+            src="https://img.freepik.com/premium-vector/indian-restaurant-icon-spice-food-bowl-chilli_8071-6781.jpg?w=2000"
+            alt="image4">
+    </div>
+
+
+    <div class="container">
+        <h1>Apply Franchise</h1>
+
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="location">Location</label>
+            <input type="text" id="location" name="location" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <p>
+                    Discover the essence of India at KMC. We bring you authentic Indian cuisine with a
+                    commitment to quality, taste, and customer satisfaction. Join us on a flavorful journey as we share
+                    the
+                    joy of Indian food and culture worldwide.
+                </p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <u>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="our-process.html">Our Process</a></li>
+                        <li><a href="FAQ.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <!-- <li><a href="#">Apply Franchise</a></li>
+                        <li><a href="#">Blog</a></li> -->
+                    </u>
+                </ul>
+            </div>
+            <!-- <div class="footer-column">
+                <h3>Our Insights</h3>
+                <u>
+                    <p>Why is Franchise so Successful</p>
+                    <p>How to start a Franchise Bussiness </p>
+                    <p>3rd Anniversary of The Rolling Plate</p>
+                    <p>Planted 300 Trees and Celebrated Azadi ka Amrit Mahotsav</p>
+                    <p>What are the benefits of Cloud Kitchen Business?</p>
+                    <p>PROFITABLE BUSSINESS THAT CAN EASILY BE STARTED ON LOW INVESTMENT</p>
+                </u>
+            </div> -->
+            <div class="footer-column">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i>facebook</a>
+                    <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i>twitter</a>
+                    <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i>instagram</a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i>linkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p> COPYRIGHT &copy; 2023 KMC | <u>ALL RIGHTS RESERVED</u> </p>
+            <p>POWERED BY <u>KMC Collections PVT.LTD</u> </p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
