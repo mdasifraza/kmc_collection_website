@@ -12,13 +12,7 @@
 
 
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
+        .banner {
             background-color: #544f4f;
             color: #fff;
             padding: 20px;
@@ -43,9 +37,45 @@
 </head>
 
 <body>
-    <header>
-        <h1>About Us.</h1>
+    <header class="header-body-section">
+        <nav class="nav">
+            <div class="container container-nav">
+                <div class="logoContainer">
+                    <img src="https://res.cloudinary.com/depo3pciu/image/upload/v1685827499/kmc_logo_qeiwkv.png" alt="">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="our-process.html">Our Process</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <!-- <li><a href="#">Apply Franchise</a></li>
+                    <li><a href="#">Blog</a></li> -->
+                    <!-- <li><a href="#" class="class"></a></li> -->
+                </ul>
+
+            </div>
+        </nav>
     </header>
+    <div class="header-section">
+        <div class="hamburger-menu">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+            </label>
+
+            <ul class="menu__box">
+                <li><a class="menu__item" href="index.html">Home</a></li>
+                <li><a class="menu__item" href="about.html">About Us</a></li>
+                <li><a class="menu__item" href="our-process.html">Our Process</a></li>
+                <li><a class="menu__item" href="FAQ.html">FAQ</a></li>
+                <li><a class="menu__item" href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner">
+        <h1>About Us.</h1>
+    </div>
     <main>
         <p>
             <strong>
@@ -203,27 +233,6 @@
             <p>POWERED BY <u>KMC Collections PVT.LTD</u> </p>
         </div>
     </footer>
-
-    <div class="header-body-section">
-        <nav class="nav">
-            <div class="container container-nav">
-                <div class="logoContainer">
-                    <img src="https://res.cloudinary.com/depo3pciu/image/upload/v1685827499/kmc_logo_qeiwkv.png" alt="">
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="our-process.html">Our Process</a></li>
-                    <li><a href="FAQ.html">FAQ</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <!-- <li><a href="#">Apply Franchise</a></li>
-                    <li><a href="#">Blog</a></li> -->
-                    <!-- <li><a href="#" class="class"></a></li> -->
-                </ul>
-
-            </div>
-        </nav>
-
 </body>
 
 </html>

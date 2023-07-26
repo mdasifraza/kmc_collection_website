@@ -18,32 +18,6 @@
       padding: 0;
     }
 
-    .container {
-      position: relative;
-      text-align: center;
-    }
-
-    .image {
-      max-width: 100%;
-      max-height: 100%;
-      width: auto;
-      height: auto;
-      filter: brightness(50%);
-    }
-
-    .text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 85px;
-      font-weight: bold;
-      color: white;
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 10px;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-    }
-
     main {
       padding: 20px;
     }
@@ -104,66 +78,66 @@
 </head>
 
 <body>
+
+  <header class="header-body-section">
+    <nav class="nav">
+      <div class="container container-nav">
+        <div class="logoContainer">
+          <img src="https://res.cloudinary.com/depo3pciu/image/upload/v1685827499/kmc_logo_qeiwkv.png" alt="">
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="our-process.html">Our Process</a></li>
+          <li><a href="FAQ.html">FAQ</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <!-- <li><a href="#">Apply Franchise</a></li>
+                <li><a href="#">Blog</a></li> -->
+          <!-- <li><a href="#" class="class"></a></li> -->
+        </ul>
+
+      </div>
+    </nav>
+  </header>
+  <div class="header-section">
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+
+      <ul class="menu__box">
+        <li><a class="menu__item" href="index.html">Home</a></li>
+        <li><a class="menu__item" href="about.html">About Us</a></li>
+        <li><a class="menu__item" href="our-process.html">Our Process</a></li>
+        <li><a class="menu__item" href="FAQ.html">FAQ</a></li>
+        <li><a class="menu__item" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+
   <div class="container">
-    <img src="https://www.cypressgreen.in/blog/wp-content/uploads/2021/03/food-1536x1024.jpg" alt="Image" class="image">
+    <img src="https://www.cypressgreen.in/blog/wp-content/uploads/2021/03/food-1536x1024.jpg" alt="Image" class="image"
+      id="myImage">
     <div class="text">Our Process</div>
   </div>
-  <p>A true blue first in the Indian Food & Beverage Industry, The Rolling Plate brings a new dimension to the Online
-    Food Franchise industry. Combining exceptional business planning, modeling, and execution with a remarkably unique
-    blend of ecclesiastic cuisines.</p>
-  <p>Starting out as a brainstorm idea in 2019, the company materialized because of the sheer potential of the plan.
-    Growth and developmental opportunities popped up fast and soon we were well over half a dozen franchises in. Our
-    exemplary revenue-generating model and the whopping profit from them brought Cloud kitchens to a truly national
-    level. </p>
-  <p>India being a diverse palette of culinary traditions, fusions, and sheer delights, we thought only an equally
-    diverse and impeccable venture could do justice to it. We bring along with us our multiple brands serving food from
-    all corners of the country and even international imports like Chinese and continental. We thrive on innovation and
-    constantly expand our horizons on cuisines. We raise the bar, raise the revenue and raise the roof to make our big
-    splash in the industry!</p>
-  <!-- <div class="process-image">
-    <img src="https://therollingplate.com/wp-content/uploads/2021/07/FOFO-2-1.jpg" alt="">
-  </div>
-  <div>
-    <img src="https://therollingplate.com/wp-content/uploads/2021/09/p1-1-1536x471.jpeg" alt="additional image"
-      class="custom-image1">
-    <img src="https://therollingplate.com/wp-content/uploads/2020/09/FOCO.jpeg" alt="" class="custom-image2">
-  </div> -->
-  <!-- <div class="image-container">
 
-    <img
-      src="https://therollingplate.com/wp-content/uploads/elementor/thumbs/Logo-10-oy2uw7d1tff56pj1ogprizq1aybx1q1q4ihso1mqy4.png"
-      alt="image1" class="custom-image">
-    <div class="image-description">
-      <p>
-      <h2> <strong>Ballu Bawarchi</strong> </h2>
-      </p>
-      Discover the joy of exceptional North Indian gastronomic wonders! Investment starting at only 3L in the FOCO
-      model.
-    </div>
-
-    <img
-      src="https://therollingplate.com/wp-content/uploads/elementor/thumbs/Bhukha-sher-oxxksoopk15qjs4e0td4efhujz5wm2r3k8nw8il2p8.png"
-      alt="image2" class="custom-image">
-    <div class="image-description">
-      <p>
-      <h2><strong>Bhukha Sher</strong></h2>
-      </p>
-      Bhukha Sher is the epitome of class, and genuine Indian culinary delight! Investment starting at only 3L in the
-      FOCO model.
-    </div>
-
-
-    <img
-      src="https://therollingplate.com/wp-content/uploads/elementor/thumbs/Dana-paani-oxxktxsyo2vi12aupcv7q43z2gzivjq7qfz79sq6ek.png"
-      alt="image3" class="custom-image">
-    <div class="image-description">
-      <p>
-      <h2><strong>Dana Paani</strong></h2>
-      </p>
-      Never anywhere else will you taste Veg Indian cuisine as delectably! Investment starting at only 3L in the FOCO
-      model.
-    </div>
-  </div> -->
+  <main>
+    <p>A true blue first in the Indian Food & Beverage Industry, The Rolling Plate brings a new dimension to the Online
+      Food Franchise industry. Combining exceptional business planning, modeling, and execution with a remarkably unique
+      blend of ecclesiastic cuisines.</p>
+    <p>Starting out as a brainstorm idea in 2019, the company materialized because of the sheer potential of the plan.
+      Growth and developmental opportunities popped up fast and soon we were well over half a dozen franchises in. Our
+      exemplary revenue-generating model and the whopping profit from them brought Cloud kitchens to a truly national
+      level. </p>
+    <p>India being a diverse palette of culinary traditions, fusions, and sheer delights, we thought only an equally
+      diverse and impeccable venture could do justice to it. We bring along with us our multiple brands serving food
+      from
+      all corners of the country and even international imports like Chinese and continental. We thrive on innovation
+      and
+      constantly expand our horizons on cuisines. We raise the bar, raise the revenue and raise the roof to make our big
+      splash in the industry!</p>
+  </main>
 
   <footer class="footer">
     <div class="footer-columns">
@@ -216,27 +190,6 @@
     </div>
   </footer>
 
-  </div>
-  <div class="header-body-section">
-    <nav class="nav">
-      <div class="container container-nav">
-        <div class="logoContainer">
-          <img src="https://res.cloudinary.com/depo3pciu/image/upload/v1685827499/kmc_logo_qeiwkv.png" alt="">
-        </div>
-
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="our-process.html">Our Process</a></li>
-          <li><a href="FAQ.html">FAQ</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-          <!-- <li><a href="#">Apply Franchise</a></li>
-          <li><a href="#">Blog</a></li> -->
-          <!-- <li><a href="#" class="class"></a></li> -->
-        </ul>
-
-      </div>
-    </nav>
 </body>
 
 </html>

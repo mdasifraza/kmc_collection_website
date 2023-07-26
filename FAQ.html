@@ -46,7 +46,7 @@
       font-size: 20px;
       cursor: pointer;
       padding: 10px;
-      background-color: #7d7878;
+      background-color: #d1d3e2;
       border-radius: 5px;
       margin-bottom: 10px;
       transition: background-color 0.3s ease;
@@ -67,18 +67,24 @@
     .question.active {
       background-color: #e6e6e6;
     }
+
+    .banner {
+      background-color: #544f4f;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-top: 63px;
+    }
   </style>
 </head>
 
 <body>
 
-  <div class="header-body-section">
+  <header class="header-body-section">
     <nav class="nav">
       <div class="container container-nav">
         <div class="logoContainer">
           <img src="https://res.cloudinary.com/depo3pciu/image/upload/v1685827499/kmc_logo_qeiwkv.png" alt="">
-          <!-- <img src="https://therollingplate.com/wp-content/uploads/2022/06/cropped-TRP-logo-brown-127x38.png"
-                  alt="The rolling plate"> -->
         </div>
         <ul class="nav-links">
           <li><a href="index.html">Home</a></li>
@@ -87,291 +93,306 @@
           <li><a href="FAQ.html">FAQ</a></li>
           <li><a href="contact.html">Contact Us</a></li>
           <!-- <li><a href="#">Apply Franchise</a></li>
-              <li><a href="#">Blog</a></li> -->
+                <li><a href="#">Blog</a></li> -->
           <!-- <li><a href="#" class="class"></a></li> -->
         </ul>
+
       </div>
     </nav>
-    <div>
-      <img id="myImage"
-        src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-composition_23-2149141353.jpg?w=740&t=st=1685433747~exp=1685434347~hmac=5222b0fe8422e39a065b81f73d2d19d0b34914a499d442b3adcd0793872c6be7"
-        alt="Full screen image">
+  </header>
+  <div class="header-section">
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+
+      <ul class="menu__box">
+        <li><a class="menu__item" href="index.html">Home</a></li>
+        <li><a class="menu__item" href="about.html">About Us</a></li>
+        <li><a class="menu__item" href="our-process.html">Our Process</a></li>
+        <li><a class="menu__item" href="FAQ.html">FAQ</a></li>
+        <li><a class="menu__item" href="contact.html">Contact Us</a></li>
+      </ul>
     </div>
+  </div>
+  <div class="banner">
+    <h1>FAQs</h1>
+  </div>
 
+  <main class="faq_container">
+    <h1>Frequently Asked Questions</h1>
 
-    <div class="faq_container">
-      <h1>Frequently Asked Questions</h1>
-
-      <div class="faq">
-        <div class="question">Q: What is the Rolling Plate?</div>
-        <div class="answer">
-          <p>The Rolling Plate is a parent brand of multi online Restaurants. The Rolling Plate have 19 multi cuisine
-            brands under it . These all 19 Brands are Cloud Kitchen Restaurants, which run on FOCO Model</p>
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: What are the names of these Brands?</div>
-        <div class="answer">
-          <p>
-          <h3>Chinese Brands</h3>
-          </p>
-          <p>1. Fat Chinese Chef</p>
-          <p>2. Shanghai Chillies</p>
-          <p>3. Dou Chi</p>
-          <p>4. Excellent Dumpling House</p>
-          <p>5. Let's Work</p>
-          <br>
-          <br>
-
-          <p>
-          <h3>North Indian Brands</h3>
-          </p>
-          <p>1. Raja Bhoj & Co</p>
-          <p>2. Kahi Se Bhi</p>
-          <p>3. Ballu Bawarchi</p>
-          <p>4. Dana Paani</p>
-          <p>5. Rozi Roti</p>
-          <p>6. Laale Di Chaap</p>
-          <p>7. Roti aur Boti</p>
-          <p>8. Bhukha Sher</p>
-          <p>9. Chicken Khurana</p>
-
-          <br>
-          <p>10. Dumb Biryani</p>
-          <p>11. Delhi-Cacies</p>
-          <br>
-          <p>Mixed Brands</p>
-          <p>1. Oye Chhotu</p>
-          <p>2. Pind Kaneda</p>
-        </div>
-      </div>
-      <div class="faq">
-        <div class="question">Q: Do you Provide Franchise of these brands?</div>
-        <div class="answer">
-          <p>Yes, The Rolling Plate provides franchise privileges to these brands. One brand at one location is called 1
-            Unit and, 1 unit Franchise cost starts from 2.90 Lakh rupees.</p>
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: What is the procedure to take the Franchise?</div>
-        <div class="answer">
-          <p>1. Choose the Brand and location.</p>
-          <p>2. Call/WhatsApp to our brands</p>
-          <p>3. Pay - Online / Cheque / DD</p>
-          <p>4. Sign the Agreement within 24 - 48 hours.</p>
-        </div>
-      </div>
-
-
-      <div class="faq">
-        <div class="question">Q: What is the cost of Franchise?</div>
-        <div class="answer">
-          <p>The cost to buy an Unit Franchise starts from 2, 90,000 + 18% GST (Two lakhs ninety thousand only + 18%
-            GST) + Marketing charges of 50K for first year. </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: Is marketing mandatory?</div>
-        <div class="answer">
-          <p>Yes , As the competition is higher in Cloud kitchen Space , The Marketing (Zomato/Swiggy) is important to
-            get the visibility of the restaurant . </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: How the Franchise Operates?</div>
-        <div class="answer">
-          <p>This is a FOCO Model franchise kitchen i.e. Franchise-Owned Company-Operated. From setting up the kitchen
-            to hiring of the staff and buying equipment’s, everything is done by the company which also manages the
-            monthly expenses of the kitchen. This includes paying rentals, salaries, and all other expenses. </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: What is the profit margin of the Franchise?</div>
-        <div class="answer">
-          <p>The franchise gets 18% of the GROSS SALES of the business done by the Brand taken by the franchise. </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: What are the monthly expenses of the Franchise?</div>
-        <div class="answer">
-          <p>There are NO MONTHLY EXPENSES other than marketing and promotional requirements as needed at the investor’s
-            discretion. </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: What is the term period of the agreement of Franchise?</div>
-        <div class="answer">
-          <p>The term period of franchise is of 3 years. The franchise can be renewed for the next 3 years after paying
-            30% of the franchise fee at the time of renewal. </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: Where are the locations, can I take a Franchise?</div>
-        <div class="answer">
-          <p>We are available in Delhi NCR. But since this is a FOCO Model so franchise have no involvements in the
-            operations so anybody from anywhere in the world can take the franchise in Delhi NCR. </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: What is the ROI?</div>
-        <div class="answer">
-          <p>10 – 18 Months approx. ( Depends on the Marketing & Positioning ) </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: Can I operate the franchise from different states or different country?</div>
-        <div class="answer">
-          <p>Yes, in this model there is no investor-side involvement in the operations. So you can monitor it from
-            different states or from the different countries also. </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: How will I know the sales of My Brand?</div>
-        <div class="answer">
-          <p>Since this is an online restaurant, the sales are via online delivery portals like Zomato, Swiggy and other
-            delivery partners. We will give the admin Id & Password of the platform to the franchise to keep a check.
-          </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: How do I sign the agreement if I am not from Delhi?</div>
-        <div class="answer">
-          <p>The agreement can be singed online. We will send the agreement online and you can scan & print the
-            agreement & sign it. </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: Do I need to have a GST Number or a company to take the franchise?</div>
-        <div class="answer">
-          <p>No, you can take the franchise on the individual Name. </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: Is the any experience required of food business or any business?</div>
-        <div class="answer">
-          <p>No</p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: How much time it takes after paying to start the business?</div>
-        <div class="answer">
-          <p>The maximum time taken for the integration is 45 – 60 days.</p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: Can I and my friend start 1 single franchise together?</div>
-        <div class="answer">
-          <p>Yes</p>
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: I want to start in my city / state, how can I do that?</div>
-        <div class="answer">
-          <p>We can collaborate on Master Franchise model. Mail us for the further details for Master Franchise Model.
-          </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: What are the sales of Existing Clients?</div>
-        <div class="answer">
-          <p>The income depends on the marketing of the unit which is the core responsibility of the unit Franchise.
-            Generally a unit does a revenue of 30k*- 1Lac* Rs. by end of 1st year.</p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: What if I want to exit?</div>
-        <div class="answer">
-          <p>The resturant franchise cannot be returned but it can be transferred.</p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: Where do I contact to buy the Franchise?</div>
-        <div class="answer">
-          <p>The Rolling Plate <br>
-            609, 6th floor, D mall. Netaji Subash place, Delhi-34
-            + (91) 7777070111, 9911694404, 96430 88666, 011-
-            41077747, 011-41077717, +1234-456-789
-            <br>
-            <strong>info@therollingplate.com</strong>
-          </p>
-
-        </div>
-      </div>
-
-      <div class="faq">
-        <div class="question">Q: Where a user can complaints or queries and resolve any matter?</div>
-        <div class="answer">
-          <p>A user can <strong>complaint</strong> or queries and resolve any matter within two business days.
-            * For <strong>Complaints</strong> or Queries Call or WhatsApp on <strong>+91 9310740388</strong> <br>
-            <strong>Complaints</strong> on Mail: <strong>info@therollingplate.com</strong>
-          </p>
-
-        </div>
+    <div class="faq">
+      <div class="question">Q: What is the Rolling Plate?</div>
+      <div class="answer">
+        <p>The Rolling Plate is a parent brand of multi online Restaurants. The Rolling Plate have 19 multi cuisine
+          brands under it . These all 19 Brands are Cloud Kitchen Restaurants, which run on FOCO Model</p>
       </div>
     </div>
 
-    <footer class="footer">
-      <div class="footer-columns">
-        <div class="footer-column">
-          <h3>About Us</h3>
-          <p>
-            Discover the essence of India at KMC. We bring you authentic Indian cuisine with a
-            commitment to quality, taste, and customer satisfaction. Join us on a flavorful journey as we share the
-            joy of Indian food and culture worldwide.
-          </p>
-        </div>
-        <div class="footer-column">
-          <h3>Quick Links</h3>
-          <ul>
-            <u>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About Us</a></li>
-              <li><a href="our-process.html">Our Process</a></li>
-              <li><a href="FAQ.html">FAQ</a></li>
-              <li><a href="contact.html">Contact Us</a></li>
-              <!-- <li><a href="#">Apply Franchise</a></li>
+    <div class="faq">
+      <div class="question">Q: What are the names of these Brands?</div>
+      <div class="answer">
+        <p>
+        <h3>Chinese Brands</h3>
+        </p>
+        <p>1. Fat Chinese Chef</p>
+        <p>2. Shanghai Chillies</p>
+        <p>3. Dou Chi</p>
+        <p>4. Excellent Dumpling House</p>
+        <p>5. Let's Work</p>
+        <br>
+        <br>
+
+        <p>
+        <h3>North Indian Brands</h3>
+        </p>
+        <p>1. Raja Bhoj & Co</p>
+        <p>2. Kahi Se Bhi</p>
+        <p>3. Ballu Bawarchi</p>
+        <p>4. Dana Paani</p>
+        <p>5. Rozi Roti</p>
+        <p>6. Laale Di Chaap</p>
+        <p>7. Roti aur Boti</p>
+        <p>8. Bhukha Sher</p>
+        <p>9. Chicken Khurana</p>
+
+        <br>
+        <p>10. Dumb Biryani</p>
+        <p>11. Delhi-Cacies</p>
+        <br>
+        <p>Mixed Brands</p>
+        <p>1. Oye Chhotu</p>
+        <p>2. Pind Kaneda</p>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="question">Q: Do you Provide Franchise of these brands?</div>
+      <div class="answer">
+        <p>Yes, The Rolling Plate provides franchise privileges to these brands. One brand at one location is called 1
+          Unit and, 1 unit Franchise cost starts from 2.90 Lakh rupees.</p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: What is the procedure to take the Franchise?</div>
+      <div class="answer">
+        <p>1. Choose the Brand and location.</p>
+        <p>2. Call/WhatsApp to our brands</p>
+        <p>3. Pay - Online / Cheque / DD</p>
+        <p>4. Sign the Agreement within 24 - 48 hours.</p>
+      </div>
+    </div>
+
+
+    <div class="faq">
+      <div class="question">Q: What is the cost of Franchise?</div>
+      <div class="answer">
+        <p>The cost to buy an Unit Franchise starts from 2, 90,000 + 18% GST (Two lakhs ninety thousand only + 18%
+          GST) + Marketing charges of 50K for first year. </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: Is marketing mandatory?</div>
+      <div class="answer">
+        <p>Yes , As the competition is higher in Cloud kitchen Space , The Marketing (Zomato/Swiggy) is important to
+          get the visibility of the restaurant . </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: How the Franchise Operates?</div>
+      <div class="answer">
+        <p>This is a FOCO Model franchise kitchen i.e. Franchise-Owned Company-Operated. From setting up the kitchen
+          to hiring of the staff and buying equipment’s, everything is done by the company which also manages the
+          monthly expenses of the kitchen. This includes paying rentals, salaries, and all other expenses. </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: What is the profit margin of the Franchise?</div>
+      <div class="answer">
+        <p>The franchise gets 18% of the GROSS SALES of the business done by the Brand taken by the franchise. </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: What are the monthly expenses of the Franchise?</div>
+      <div class="answer">
+        <p>There are NO MONTHLY EXPENSES other than marketing and promotional requirements as needed at the investor’s
+          discretion. </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: What is the term period of the agreement of Franchise?</div>
+      <div class="answer">
+        <p>The term period of franchise is of 3 years. The franchise can be renewed for the next 3 years after paying
+          30% of the franchise fee at the time of renewal. </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: Where are the locations, can I take a Franchise?</div>
+      <div class="answer">
+        <p>We are available in Delhi NCR. But since this is a FOCO Model so franchise have no involvements in the
+          operations so anybody from anywhere in the world can take the franchise in Delhi NCR. </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: What is the ROI?</div>
+      <div class="answer">
+        <p>10 – 18 Months approx. ( Depends on the Marketing & Positioning ) </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: Can I operate the franchise from different states or different country?</div>
+      <div class="answer">
+        <p>Yes, in this model there is no investor-side involvement in the operations. So you can monitor it from
+          different states or from the different countries also. </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: How will I know the sales of My Brand?</div>
+      <div class="answer">
+        <p>Since this is an online restaurant, the sales are via online delivery portals like Zomato, Swiggy and other
+          delivery partners. We will give the admin Id & Password of the platform to the franchise to keep a check.
+        </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: How do I sign the agreement if I am not from Delhi?</div>
+      <div class="answer">
+        <p>The agreement can be singed online. We will send the agreement online and you can scan & print the
+          agreement & sign it. </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: Do I need to have a GST Number or a company to take the franchise?</div>
+      <div class="answer">
+        <p>No, you can take the franchise on the individual Name. </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: Is the any experience required of food business or any business?</div>
+      <div class="answer">
+        <p>No</p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: How much time it takes after paying to start the business?</div>
+      <div class="answer">
+        <p>The maximum time taken for the integration is 45 – 60 days.</p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: Can I and my friend start 1 single franchise together?</div>
+      <div class="answer">
+        <p>Yes</p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: I want to start in my city / state, how can I do that?</div>
+      <div class="answer">
+        <p>We can collaborate on Master Franchise model. Mail us for the further details for Master Franchise Model.
+        </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: What are the sales of Existing Clients?</div>
+      <div class="answer">
+        <p>The income depends on the marketing of the unit which is the core responsibility of the unit Franchise.
+          Generally a unit does a revenue of 30k*- 1Lac* Rs. by end of 1st year.</p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: What if I want to exit?</div>
+      <div class="answer">
+        <p>The resturant franchise cannot be returned but it can be transferred.</p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: Where do I contact to buy the Franchise?</div>
+      <div class="answer">
+        <p>The Rolling Plate <br>
+          609, 6th floor, D mall. Netaji Subash place, Delhi-34
+          + (91) 7777070111, 9911694404, 96430 88666, 011-
+          41077747, 011-41077717, +1234-456-789
+          <br>
+          <strong>info@therollingplate.com</strong>
+        </p>
+
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">Q: Where a user can complaints or queries and resolve any matter?</div>
+      <div class="answer">
+        <p>A user can <strong>complaint</strong> or queries and resolve any matter within two business days.
+          * For <strong>Complaints</strong> or Queries Call or WhatsApp on <strong>+91 9310740388</strong> <br>
+          <strong>Complaints</strong> on Mail: <strong>info@therollingplate.com</strong>
+        </p>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-columns">
+      <div class="footer-column">
+        <h3>About Us</h3>
+        <p>
+          Discover the essence of India at KMC. We bring you authentic Indian cuisine with a
+          commitment to quality, taste, and customer satisfaction. Join us on a flavorful journey as we share the
+          joy of Indian food and culture worldwide.
+        </p>
+      </div>
+      <div class="footer-column">
+        <h3>Quick Links</h3>
+        <ul>
+          <u>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="our-process.html">Our Process</a></li>
+            <li><a href="FAQ.html">FAQ</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <!-- <li><a href="#">Apply Franchise</a></li>
                 <li><a href="#">Blog</a></li> -->
-            </u>
-          </ul>
-        </div>
-        <!-- <div class="footer-column">
+          </u>
+        </ul>
+      </div>
+      <!-- <div class="footer-column">
               <h3>Our Insights</h3>
               <u>
                   <p>Why is Franchise so Successful</p>
@@ -382,36 +403,36 @@
                   <p>PROFITABLE BUSSINESS THAT CAN EASILY BE STARTED ON LOW INVESTMENT</p>
               </u>
           </div> -->
-        <div class="footer-column">
-          <h3>Follow Us</h3>
-          <div class="social-icons">
-            <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i>facebook</a>
-            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i>twitter</a>
-            <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i>instagram</a>
-            <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i>linkedIn</a>
-          </div>
+      <div class="footer-column">
+        <h3>Follow Us</h3>
+        <div class="social-icons">
+          <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i>facebook</a>
+          <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i>twitter</a>
+          <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i>instagram</a>
+          <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin"></i>linkedIn</a>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p> COPYRIGHT &copy; 2023 KMC | <u>ALL RIGHTS RESERVED</u> </p>
-        <p>POWERED BY <u>KMC Collections PVT.LTD</u> </p>
-      </div>
-    </footer>
+    </div>
+    <div class="footer-bottom">
+      <p> COPYRIGHT &copy; 2023 KMC | <u>ALL RIGHTS RESERVED</u> </p>
+      <p>POWERED BY <u>KMC Collections PVT.LTD</u> </p>
+    </div>
+  </footer>
 
-    <script>
-      const questions = document.querySelectorAll('.question');
-      questions.forEach((question) => {
-        question.addEventListener('click', () => {
-          question.classList.toggle('active');
-          const answer = question.nextElementSibling;
-          if (question.classList.contains('active')) {
-            answer.style.display = 'block';
-          } else {
-            answer.style.display = 'none';
-          }
-        });
+  <script>
+    const questions = document.querySelectorAll('.question');
+    questions.forEach((question) => {
+      question.addEventListener('click', () => {
+        question.classList.toggle('active');
+        const answer = question.nextElementSibling;
+        if (question.classList.contains('active')) {
+          answer.style.display = 'block';
+        } else {
+          answer.style.display = 'none';
+        }
       });
-    </script>
+    });
+  </script>
 
 
 </body>
